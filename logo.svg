@@ -1,0 +1,39 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer scan ring -->
+  <circle
+    cx="60"
+    cy="60"
+    r="46"
+    stroke="url(#ringGradient)"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-dasharray="220 60"
+    transform="rotate(-30 60 60)"
+  />
+
+  <!-- Inner glow -->
+  <circle
+    cx="60"
+    cy="60"
+    r="38"
+    stroke="#22D3EE"
+    stroke-opacity="0.25"
+    stroke-width="2"
+  />
+
+  <!-- Checkmark -->
+  <path
+    d="M45 62 L56 72 L76 48"
+    stroke="#E6EDF3"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+
+  <defs>
+    <linearGradient id="ringGradient" x1="0" y1="0" x2="120" y2="120">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+  </defs>
+</svg>
