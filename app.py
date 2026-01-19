@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 import streamlit.components.v1 as components
 
-API_BASE = "http://127.0.0.1:8000/verify"
+API_BASE = "https://truthscan-backend-production.up.railway.app/verify"
+
 
 st.set_page_config(
     page_title="TruthScan",
